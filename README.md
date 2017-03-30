@@ -1,7 +1,31 @@
-# 程序员也是会浪漫的->打造浪漫的Android表白程序
-1. 生成心形线
-2. 绘制花瓣原理
-3. 将花朵绘制到桃心线上
+我的个人网站
+
+| My Blog | [My Blog](http://xuejianxin.gq/) |
+| ------------- |:-------------:|
+| **Github** | [Github](https://github.com/xuejianxin) |
+| **CSDN** | [CSDN](http://blog.csdn.net/jim__charles) |
+| **weibo** | [weibo](http://weibo.com/5826249790/profile?topnav=1&wvr=6&is_all=1) |
+| **zhihu** | [zhihu](https://www.zhihu.com/people/jim-charles-56/activities) | 
+
+---
+
+Android自定义View学习
+
+[Android自定义View之常用工具源码分析](http://blog.csdn.net/jim__charles/article/details/53784549)
+
+[Android自定义View之onMeasure()源码分析](http://blog.csdn.net/jim__charles/article/details/53965738)
+
+[Android自定义View之onLayout()的源码分析](http://blog.csdn.net/jim__charles/article/details/54233065)
+
+---
+
+如果觉得我的文章还行的话，也可以关注我的公众号，里面也会第一时间更新，并且会有更多的关于技术的最新资讯和一些个人感想。
+
+扫码关注
+
+![扫码关注](http://img.my.csdn.net/uploads/201611/13/1479034739_5678.jpg)
+
+---
 
 一年前，看到过有个牛人用[HTML5](http://lib.csdn.net/base/html5)绘制了浪漫的爱心表白动画，后来又在[华超的这篇文章](http://blog.csdn.net/huachao1001/article/details/51489582)上看到大神用Android写出了相同的效果，于是也动手写了一下，并加了一些功能，感谢大神的指引,写给女票看她很开心呢。地址在这：[浪漫程序员 HTML5爱心表白动画](http://www.html5tricks.com/demo/jiaoben1892/index.html)。发现原来程序员也是可以很浪……漫…..的。那么在Android怎么打造如此这个效果呢？参考了一下前面Html5的算法，在Android中实现了类似的效果。先贴上最终效果图：
 
@@ -11,6 +35,7 @@
 ![这里写图片描述](http://img.blog.csdn.net/20161127173020435)
 ![这里写图片描述](http://img.blog.csdn.net/20161127173038170)
 
+---
 
 ###生成心形线
 	
@@ -57,6 +82,7 @@ offsetX = width / 2;
 运行结果如下： 
 ![这里写图片描述](http://img.blog.csdn.net/20160524134219956)
 
+---
 
 ###绘制花瓣原理
 
@@ -64,6 +90,7 @@ offsetX = width / 2;
 
 ![这里写图片描述](http://img.blog.csdn.net/20160525134623300)
 
+---
 
 ###将花朵绘制到桃心线上
 
@@ -751,6 +778,8 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
+
+---
 
 到了这一步就可以实现上面的效果了。
 [源码地址在这](https://github.com/xuejianxin/testheart)。
